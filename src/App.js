@@ -84,12 +84,15 @@ function ProtectedApp({ signOut }) {
 
   return (
     <div>
-      <h1>Upload files to IPFS</h1>
-      <h5> Choose file to upload to IPFS </h5>
-      <Form onSubmit={onSubmit}>
-        <input type="file" onChange={captureFile} required />
-        <Button type="submit">Upload</Button>
-      </Form>
+      <h1>Upload</h1>
+      <Form onSubmit={onSubmit} className="center">
+  <label htmlFor="file-input" className="file-input-label">
+    Choose file to upload
+  </label>
+  <input id="file-input" type="file" onChange={captureFile} required className="file-input" />
+  <Button type="submit">Upload</Button>
+</Form>
+
       {
         showLinks ?
           <div>
