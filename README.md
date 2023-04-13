@@ -1,6 +1,6 @@
 # Estuary
 
-- This is a simple React App using which you can upload any file to IPFS and it will generate an IPFS hash, link and QR code which can be then shared with people or used however you want.
+- This is a simple React App where you can upload + pin any file to [IPFS](http://ipfs.io) and it will generate a hash, link and QR code which can be then shared with people or used however you want.
 
 - Users can sign up to create an account on the app, all of which is handled via Firebase. You can limit sign ups to certain whitelisted domains (this can be done on Firebase as well).
 
@@ -18,7 +18,7 @@ Clone the repo and install the necessary dependencies with `npm install`
 ```bash
 git clone https://github.com/et0and/estuary
 cd estuary
-npm install
+yarn install
 ```
 
 Rename the .env.example to .env and set the following secret variables accordingly:
@@ -35,7 +35,7 @@ You can get these by signing up for the infura IPFS service and Firebase respect
 
 To run the application:
 ```bash
-npm start
+yarn start
 ```
 
 The site is now running at `http://localhost:3000`!
