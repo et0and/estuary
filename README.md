@@ -6,11 +6,6 @@
 
 - As [Infura](https://infura.io) no longer provides a free IPFS gateway, you will need to create an account and use your own API keys in order to run your own instance. You will also need to provide a Firebase API key. 
 
-## 🎬 Demo Video 
-
-https://user-images.githubusercontent.com/71545386/197403658-6c77614c-cb20-435b-87ec-9dcf0c918a18.mov
-
-
 ## 🔧 Setting up Local Development
 
 Required: 
